@@ -14,7 +14,7 @@ valuesInObject(animals); // => ["Wolfie", "Jet", "Bilbo"]
 valuesInObject(foods); // => ["tart", "sour", "sweet"]
 ***********************************************************************/
 
-function valuesInObject(obj) {
+// function valuesInObject(obj) {
   // Your code here
 //   let values = [];
 //   for (let key in obj) {
@@ -23,8 +23,8 @@ function valuesInObject(obj) {
 //   return values;
 // };
 
- const valuesInObject = (obj) => Object.value(obj[key]);
-}
+ let valuesInObject = (obj) => Object.values(obj);
+// }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = valuesInObject;
